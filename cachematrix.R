@@ -1,5 +1,9 @@
-## we are writing 2 functions called makeCacheMatrix and CacheSolve functions
-## makeCacheMatrix function is used to cahe the inverse of the matrix
+## The purpose of this program is to cache the time consuming computations
+## It has totally 4 functions called makeCacheMatrix, makeVector, CacheSolve and
+## CacheMean Functions.
+
+
+## makeCacheMatrix function is used to cache the inverse of the matrix
 
 makeCacheMatrix <- function(x = numeric()) {
   s <- NULL
